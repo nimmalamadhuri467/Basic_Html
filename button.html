@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkbox</title>
+</head>
+<body>
+    <form action="server">
+    <input type="checkbox" name="age" id="age"  />
+    <label for="age" > Iam18 +</label> 
+    <button>submit</button>  
+
+<hr>
+<!-- radiobuttons -->
+<div>
+        <input type="radio" name="fruit" id="apple" value="apple" />
+        <label for="fruit" > apple</label> 
+        <br>
+        <input type="radio" name="fruit" id="grapes" value="grapes" />
+        <label for="fruit" > grapes</label> 
+        <br>
+        <input type="radio" name="fruit" id="pineapple" value="pineapple"  />
+        <label for="fruit" > pineapple</label> 
+        <button>submit</button>  
+        <br>
+</div>
+<hr>
+
+<!-- choose ur subject multiple checkboxes -->
+ <div>
+    <input type="checkbox" name="subject" id="physics" value="physics" />
+    <label for="subject" >  physics</label> 
+    <br>
+    <input type="checkbox" name="subject" id="eng"  value="eng" />
+    <label for="subject" > eng</label> 
+    <br>
+    <input type="checkbox" name="subject" id="hin" value="hin"  />
+    <label for="subject" > hin</label> 
+    <br>
+    <input type="checkbox" name="subject1" id="sci" value=sci  />
+    <label for="subject" > sci</label>
+    <button>submit</button> 
+</div> 
+<hr>
+<!-- dropdown -->
+ <div>
+    courses
+    <select  name="courses" id="courses">
+        <option>select </option>
+        <option value="web">web </option>
+        <option value="it" selected>it </option>
+        <option value="cse">cse </option>
+        <option value="eee">eee </option>
+    </select>
+     <button>submit</button> 
+ </div>
+ <hr>
+ <!-- range -->
+ <div>
+    <label for="vol">select sound</label>
+    <input type="range" id="vol"  min="0" max="100" name="vol" step="10" value="20">
+     <button>submit</button> 
+ </div>
+<br>
+<hr>
+<!-- text area -->
+ <div>
+    <label for="feedback"  > please give review</label>
+    <textarea id="feedback" name="feedback" rows="5" cols="10" placeholder="review"></textarea>
+    <button>submit</button> 
+
+ </div>
+</form>
+
+
+
+</body>
+</html>
